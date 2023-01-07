@@ -21,7 +21,7 @@ public class charArrayTest {
 				sortedMap.put(letter, sortedMap.get(letter) + 1);
 			}
 		}
-		// System.out.println(sortedMap.entrySet());
+
 		sortedMap.forEach((letter, count) -> {
 
 			if (count > 1 && letter != ' ') {
